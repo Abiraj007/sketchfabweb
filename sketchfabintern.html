@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <style>
+           .nav-access{
+        padding-left: 60px;
+    }
+    
+    .navbar {
+      background-color: white;
+      padding: 0px;
+    }
+        .background-image{
+            background-color:whitesmoke;
+            height:100%;
+            width:100vw;
+
+        }
+        .containerElement{
+            background-color:white;
+            height:43vh;
+            width:30vw;  
+            margin-left:40px;
+            margin-top:20px;
+        }
+        .image{
+            height: 80px;
+            width:85px;
+            padding: 10px;
+        }
+        .btnelement{
+            height:25px;
+            width:115px;
+            background-color: black;
+            padding:0px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .page{
+            width:229px;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .app-logo{
+        height:70px;
+        width:80px;
+        
+    }
+    </style>
+    
+    </head>
+    <body>
+        <div class="d-flex flex-column background-image">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img
+                      src="https://media.sketchfab.com/avatars/2734df1e7b074f69b8898121b2531f1c/0a37c4baa42e4dd3b35f879e087c3ef6.jpeg"
+                      class="app-logo"
+                    />
+                  </a>
+                  <h1 style="font-weight: bold;font-size:32px;font-family:Roboto;padding:10px;">
+                    SKETCHFAB
+                  </h1>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav  nav-access">
+                      <a class="nav-link active" href="#section1">
+                        Designs
+                        <span class="sr-only">(current)</span>
+                      </a>
+                      <a href="#section2"class="nav-link"  id="navItem3">Styles</a>
+                      <a href="#section3"class="nav-link"  id="navItem4"> COMMUNITY<svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg></a>
+                      <a href="#section4"class="nav-link"  id="navItem5">Traditional <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        />
+                      </svg></a>
+                      <a href="#section5"class="nav-link"  id="navItem6">Live pics</a>
+                      <a href="#section6"><button class="btn btn-primary btn-var ml-2 ">
+                               Latest
+                      </button>
+                    </a>
+                    </div>
+                  </div>
+                  <a href><p style="padding-top: 15px;margin-left: 10px;">sign in</p></a>
+                  <button class="btn btn-primary ml-5">
+                    Claim Vouchers
+                  </button>
+                </div>
+              </nav>
+
+            <h1 style="color:black;font-size:35px;padding-top:50px;padding-left:50px;font-weight:lighter;margin-top: 45px;">
+                Users
+            </h1>
+        <div class="d-flex  flex-row  mb-1">
+            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row ">
+                <img src="https://media.sketchfab.com/avatars/2734df1e7b074f69b8898121b2531f1c/0a37c4baa42e4dd3b35f879e087c3ef6.jpeg" class="image"/>
+                          <div class="d-flex flex-column">
+                            <div class="d-flex flex-row" style="text-align: left;">  
+                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                            Sketchfab
+                        </p>
+                        <button class="btn btn-primary btnelement">
+                            ENTERPRISE
+                        </button>
+                        </div>
+                        <p style="font-size: 12px;padding-left: 10px;">
+                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                        </p>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://media.sketchfab.com/models/d5ca33dacf10459a92a8de25fb362a23/thumbnails/6eae7718c7714d998fc63b12068bffb1/9d3cc59b8f804bc9af83b3a03be550ae.jpeg" class="page"/>
+                        <img src="https://media.sketchfab.com/models/6a8d1fd20a1f46e988d9d06e028f75a0/thumbnails/74c68244006e40a98bf61777b2cf514d/005c5ef149974e78acea37098db29d71.jpeg"class="page"/>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column">
+                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                        3,456,287
+                    </span>
+                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                        FOLLOWERS
+                    </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                            75
+                        </span>
+                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                            MODELS
+                        </p>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                            FOLLOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="d-flex  flex-row  mb-1 d-inline d-sm-5 d-md-3">
+                    <div class="containerElement shadow">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row ">
+                        <img src="https://media.sketchfab.com/avatars/08725f429f3f46369af593ce6a190361/d7ba41fd87c342a9811d8bb2f46ebd6c.png" class="image"/>
+                                  <div class="d-flex flex-column">
+                                    <div class="d-flex flex-row" style="text-align: left;">  
+                                <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                    Sketchfab Store
+                                </p>
+                                <button class="btn btn-primary btnelement">
+                                    ENTERPRISE
+                                </button>
+                                </div>
+                                <p style="font-size: 12px;padding-left: 10px;">
+                                    3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                </p>
+                            </div>
+                           
+                            </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="https://media.sketchfab.com/models/215b6016c804491ea98ab87cc379b2b7/thumbnails/2e079600e3d74ce28004a9763062063f/45e86ca8ba174cb5be8042d40596b1b4.jpeg" class="page"/>
+                                <img src=""class="page"/>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="d-flex flex-column">
+                            <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                3,456,287
+                            </span>
+                            <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                FOLLOWERS
+                            </p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                    75
+                                </span>
+                                <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                    MODELS
+                                </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                    FOLLOW
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                        
+        
+            
+                        <div class="d-flex  flex-row  mb-1 d-inline d-sm-5 d-md-3">
+                            <div class="containerElement shadow">
+                              <div class="d-flex flex-column">
+                                <div class="d-flex flex-row ">
+                                <img src="https://media.sketchfab.com/avatars/34d21764af814facb1a58d1d2c58da54/daf0a8ae509e470da7b92bbcc387e297.jpeg" class="image"/>
+                                          <div class="d-flex flex-column">
+                                            <div class="d-flex flex-row" style="text-align: left;">  
+                                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                            Bitgem
+                                        </p>
+                                        <button class="btn btn-primary btnelement">
+                                            ENTERPRISE
+                                        </button>
+                                        </div>
+                                        <p style="font-size: 12px;padding-left: 10px;">
+                                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                        </p>
+                                    </div>
+                                   
+                                    </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <img src="https://media.sketchfab.com/models/466184717bc6453dbd7b3732824ecbbe/thumbnails/511c854a1b0d47b9bfeee6748ecf87c9/ecdea0a0fff842c4be9cffa7c05564ea.jpeg" class="page"/>
+                                        <img src="https://media.sketchfab.com/models/0aad0b69ac9649c1a4951342c8db85f8/thumbnails/33cbfc183e73430e97f85f2238b0eca0/17552681bd28449a990ff52d86acb552.jpeg"class="page"/>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                        3,456,287
+                                    </span>
+                                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                        FOLLOWERS
+                                    </p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                            75
+                                        </span>
+                                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                            MODELS
+                                        </p>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                            FOLLOW
+                                        </button>
+                                    </div>
+                                </div>
+                                </div>
+                     
+                        
+                
+         </div>
+         </div>
+         </div>
+         
+
+         <div class="d-flex  flex-row  mb-1">
+            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row ">
+                <img src="https://media.sketchfab.com/avatars/550dce884cec49bb9e90987e7353463d/c7c33c5b0ace4e5e9747ba3ef89544d3.jpeg" class="image"/>
+                          <div class="d-flex flex-column">
+                            <div class="d-flex flex-row" style="text-align: left;">  
+                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                            3DHaupt
+                        </p>
+                        <button class="btn btn-primary btnelement">
+                            ENTERPRISE
+                        </button>
+                        </div>
+                        <p style="font-size: 12px;padding-left: 10px;">
+                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                        </p>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://media.sketchfab.com/models/hliAt7xc6YU2XjXh5G4lzmQwFmR/thumbnails/e98303db8eb542e19a24828deeb1791e/acff53cf43c64bc3ba194c6ebb58d96c.jpeg" class="page"/>
+                        <img src="https://media.sketchfab.com/models/fb0053a2e59b43868e934c239bf4eb36/thumbnails/8675120768994ecbb4c552505320d620/3aeaf9d824e343a6a848340111b7ed27.jpeg"class="page"/>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column">
+                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                        3,456,287
+                    </span>
+                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                        FOLLOWERS
+                    </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                            75
+                        </span>
+                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                            MODELS
+                        </p>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                            FOLLOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="d-flex  flex-row  mb-1">
+                    <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row ">
+                        <img src="https://media.sketchfab.com/avatars/1768cd30824e40189a93920ae0b9d143/2df169e6e5d6471a97b05137c9479f26.jpeg" class="image"/>
+                                  <div class="d-flex flex-column">
+                                    <div class="d-flex flex-row" style="text-align: left;">  
+                                <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                    Thomas Flynn
+                                </p>
+                                <button class="btn btn-primary btnelement">
+                                    ENTERPRISE
+                                </button>
+                                </div>
+                                <p style="font-size: 12px;padding-left: 10px;">
+                                    3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                </p>
+                            </div>
+                           
+                            </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="https://media.sketchfab.com/models/e9fa58a7f25645db99b9519073c88b40/thumbnails/4189b6b43f1141d787f98931bc92228b/b2248afbecc14b188e117d55c74febca.jpeg" class="page"/>
+                                <img src="https://media.sketchfab.com/models/b2f3e84112d04bf1844e7ac2c4423566/thumbnails/1a80b114a71545dfb187be11a63783b7/fbf68de75c24484f859ee7e224808b62.jpeg"class="page"/>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="d-flex flex-column">
+                            <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                3,456,287
+                            </span>
+                            <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                FOLLOWERS
+                            </p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                    75
+                                </span>
+                                <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                    MODELS
+                                </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                    FOLLOW
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                        
+        
+            
+                        <div class="d-flex  flex-row  mb-1">
+                            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                              <div class="d-flex flex-column">
+                                <div class="d-flex flex-row ">
+                                <img src="https://media.sketchfab.com/avatars/beb1abce347b4df395ab744953340646/7eb2ee43b39f4f18b7d411897d067ca2.jpeg" class="image"/>
+                                          <div class="d-flex flex-column">
+                                            <div class="d-flex flex-row" style="text-align: left;">  
+                                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                            Geoffrey Marchal 
+                                        </p>
+                                        <button class="btn btn-primary btnelement">
+                                            ENTERPRISE
+                                        </button>
+                                        </div>
+                                        <p style="font-size: 12px;padding-left: 10px;">
+                                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                        </p>
+                                    </div>
+                                   
+                                    </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <img src="https://media.sketchfab.com/models/455b37b9e58d43dba5b6c0ab269e242a/thumbnails/98841ce8f244429abaf39a4a73f4030f/c17984bef6cc45378500a6485be6a22c.jpeg" class="page"/>
+                                        <img src="https://media.sketchfab.com/models/48efb9097e90487bac043950f280dc2e/thumbnails/b0d6550e7ae047dfa7750b57f4b631b9/fb2ed5a19a5848d9834ce604b81aab9b.jpeg"class="page"/>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                        3,456,287
+                                    </span>
+                                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                        FOLLOWERS
+                                    </p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                            75
+                                        </span>
+                                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                            MODELS
+                                        </p>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                            FOLLOW
+                                        </button>
+                                    </div>
+                                </div>
+                                </div>
+                     
+                        
+                
+         </div>
+         </div>
+         </div>
+         <div class="d-flex  flex-row  mb-1">
+            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row ">
+                <img src="https://media.sketchfab.com/avatars/9df8382edeb64cfdb040e3ee8ad041b6/5a31977d82f047d89ce635e47141c062.jpeg" class="image"/>
+                          <div class="d-flex flex-column">
+                            <div class="d-flex flex-row" style="text-align: left;">  
+                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                            Cgart.com
+                        </p>
+                        <button class="btn btn-primary btnelement">
+                            ENTERPRISE
+                        </button>
+                        </div>
+                        <p style="font-size: 12px;padding-left: 10px;">
+                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                        </p>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://media.sketchfab.com/models/fb3c7b5f457f4d5d873c13c942394cc3/thumbnails/a28bfb6423f043cf9a691ecc34236176/c316b77c38264fdb88035b631cba0931.jpeg" class="page"/>
+                        <img src="https://media.sketchfab.com/models/29509a944b7c413b8b91f574d183cc29/thumbnails/994cb04ba16643ba9fa8b83bef986b52/7f2d8216bf434fa4a641218c59284b72.jpeg"class="page"/>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column">
+                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                        3,456,287
+                    </span>
+                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                        FOLLOWERS
+                    </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                            75
+                        </span>
+                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                            MODELS
+                        </p>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                            FOLLOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="d-flex  flex-row  mb-1">
+                    <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row ">
+                        <img src="https://media.sketchfab.com/avatars/c533769731cd440d96fb03a23391c29f/6673c8c9c7d34c96890e189638595f0d.png" class="image"/>
+                                  <div class="d-flex flex-column">
+                                    <div class="d-flex flex-row" style="text-align: left;">  
+                                <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                    lionSharp.Studios
+                                </p>
+                                <button class="btn btn-primary btnelement">
+                                    ENTERPRISE
+                                </button>
+                                </div>
+                                <p style="font-size: 12px;padding-left: 10px;">
+                                    3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                </p>
+                            </div>
+                           
+                            </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="https://media.sketchfab.com/models/3205b1075bb44ffc826bce0c2a04d74c/thumbnails/b5baf352f1f14f0197a03e345f60114d/40f3dce635ce49959dc6a96d8dc07c87.jpeg" class="page"/>
+                                <img src="https://media.sketchfab.com/models/8568d9d14a994b9cae59499f0dbed21e/thumbnails/091bbd9865ee4fd29ed5c29fe710c463/ec77658cd0b641b297ee0afc02438851.jpeg"class="page"/>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="d-flex flex-column">
+                            <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                3,456,287
+                            </span>
+                            <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                FOLLOWERS
+                            </p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                    75
+                                </span>
+                                <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                    MODELS
+                                </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                    FOLLOW
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                        
+        
+            
+                        <div class="d-flex  flex-row  mb-1">
+                            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                              <div class="d-flex flex-column">
+                                <div class="d-flex flex-row ">
+                                <img src="https://media.sketchfab.com/avatars/f02e291e20fc4149bcb9d15c7a224f6b/9c4e299f948447c887fe5e0a4383f5e1.jpeg" class="image"/>
+                                          <div class="d-flex flex-column">
+                                            <div class="d-flex flex-row" style="text-align: left;">  
+                                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                            glenatron
+                                        </p>
+                                        <button class="btn btn-primary btnelement">
+                                            ENTERPRISE
+                                        </button>
+                                        </div>
+                                        <p style="font-size: 12px;padding-left: 10px;">
+                                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                        </p>
+                                    </div>
+                                   
+                                    </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <img src="https://media.sketchfab.com/models/a4ca0e3864e143af9bf1dffc7fc8029b/thumbnails/33a44d0a7d124b8f9babba2c33f35f37/200x200.jpeg" class="page" style="width:229px;height:128px;"/>
+                                        <img src="https://media.sketchfab.com/models/cbcf188a01f54d63a10f10c227c5a6ff/thumbnails/1a6f5f48a613411dbdd8afaa52dd970e/e5e0f5fc82334e909d15be0daabe48bb.jpeg"class="page" style="width:229px;height:128px;"/>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                        3,456,287
+                                    </span>
+                                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                        FOLLOWERS
+                                    </p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                            75
+                                        </span>
+                                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                            MODELS
+                                        </p>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                            FOLLOW
+                                        </button>
+                                    </div>
+                                </div>
+                                </div>
+                     
+                        
+                
+         </div>
+         </div>
+         </div>
+         <div class="d-flex  flex-row  mb-1">
+            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row ">
+                <img src="https://media.sketchfab.com/avatars/f9051e0031f94daca9956e686b64bbe8/ea591f71808e43f0a7c337967ed81e78.jpeg" class="image"/>
+                          <div class="d-flex flex-column">
+                            <div class="d-flex flex-row" style="text-align: left;">  
+                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                            Star Conflict
+                        </p>
+                        <button class="btn btn-primary btnelement">
+                            ENTERPRISE
+                        </button>
+                        </div>
+                        <p style="font-size: 12px;padding-left: 10px;">
+                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                        </p>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://media.sketchfab.com/models/c8e9020d658649238ee3cfc1c1d64a68/thumbnails/484c667fdf0048f99d09c92e5bb03dfc/979325de11864cf0b55e74406f5e2e14.jpeg" class="page" style="width:229px;height:128px;"/>
+                        <img src="https://media.sketchfab.com/models/ecc16e103e79448faf9730f172a1d7e8/thumbnails/7498ffc2114c4e56a0becd66df5b6805/200x200.jpeg"class="page" style="width:229px;height:128px;"/>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column">
+                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                        3,456,287
+                    </span>
+                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                        FOLLOWERS
+                    </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                            75
+                        </span>
+                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                            MODELS
+                        </p>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                            FOLLOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="d-flex  flex-row  mb-1">
+                    <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row ">
+                        <img src="https://media.sketchfab.com/avatars/e38a99a73e2f49b4ad21a22de3567bb3/b8e563a24d024a6bba3591f7c43f1caf.jpeg" class="image"/>
+                                  <div class="d-flex flex-column">
+                                    <div class="d-flex flex-row" style="text-align: left;">  
+                                <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                    Patrix
+                                </p>
+                                <button class="btn btn-primary btnelement">
+                                    ENTERPRISE
+                                </button>
+                                </div>
+                                <p style="font-size: 12px;padding-left: 10px;">
+                                    3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                </p>
+                            </div>
+                           
+                            </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="https://media.sketchfab.com/models/145a513ac6154e36b6ba336eadfc3e00/thumbnails/50df3b26263f45c5a2d22bc6ab66f450/db0c7133ea7149148e27a9b6ccc1ce43.jpeg" class="page"/>
+                                <img src="https://media.sketchfab.com/models/24033742597441eda804fad16d2c7255/thumbnails/5fea10599e7b460ba865e9e077228c52/cb596dab0a894e67ba51c5c9fd729ccb.jpeg"class="page"/>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="d-flex flex-column">
+                            <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                3,456,287
+                            </span>
+                            <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                FOLLOWERS
+                            </p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                    75
+                                </span>
+                                <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                    MODELS
+                                </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                    FOLLOW
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                        
+        
+            
+                        <div class="d-flex  flex-row  mb-1">
+                            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                              <div class="d-flex flex-column">
+                                <div class="d-flex flex-row ">
+                                <img src="https://media.sketchfab.com/avatars/585952b7e7fa47a9a32a3920766ab994/d72877e170274401aa80bac5394be368.jpeg" class="image"/>
+                                          <div class="d-flex flex-column">
+                                            <div class="d-flex flex-row" style="text-align: left;">  
+                                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                            Luyysport
+                                        </p>
+                                        <button class="btn btn-primary btnelement">
+                                            ENTERPRISE
+                                        </button>
+                                        </div>
+                                        <p style="font-size: 12px;padding-left: 10px;">
+                                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                        </p>
+                                    </div>
+                                   
+                                    </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <img src="https://media.sketchfab.com/models/8a555ce7382c4c55b798f4cf7b9cae0c/thumbnails/3157b7d9618144bf87bbbb24fe041ffb/1883d22b8fee445a9dfea218a30a507b.jpeg" class="page"/>
+                                        <img src="https://media.sketchfab.com/models/1e529f4b8efc4f20925957a9a4208dcd/thumbnails/946c1c820d9d43aba834e8cb177b54ca/7821900544ff44a5a9167c4fc4e9fc0d.jpeg"class="page"/>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                        3,456,287
+                                    </span>
+                                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                        FOLLOWERS
+                                    </p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                            75
+                                        </span>
+                                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                            MODELS
+                                        </p>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                            FOLLOW
+                                        </button>
+                                    </div>
+                                </div>
+                                </div>
+                     
+                        
+                
+         </div>
+         </div>
+         </div>
+         <div class="d-flex  flex-row  mb-1">
+            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row ">
+                <img src="https://media.sketchfab.com/avatars/4f2f70b154bb4279b1261b2509862b9e/6558e75b44b9424fbb8839887012f2ab.jpeg" class="image"/>
+                          <div class="d-flex flex-column">
+                            <div class="d-flex flex-row" style="text-align: left;">  
+                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                            ybourykina
+                        </p>
+                        <button class="btn btn-primary btnelement">
+                            ENTERPRISE
+                        </button>
+                        </div>
+                        <p style="font-size: 12px;padding-left: 10px;">
+                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                        </p>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://media.sketchfab.com/models/c27b86b552a644c789b8a0cabfe6d9a4/thumbnails/98ab4bb53ab645c88b511d10552d1138/200x200.jpeg" class="page" style="width:229px;height:128px;"/>
+                        <img src="https://media.sketchfab.com/models/cb6d0feaf2a84837871d9306554ee94e/thumbnails/2f4040833faf4f19a088143b0f40c864/200x200.jpeg"class="page" style="width:229px;height:128px;"/>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column">
+                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                        3,456,287
+                    </span>
+                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                        FOLLOWERS
+                    </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                            75
+                        </span>
+                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                            MODELS
+                        </p>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                            FOLLOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+                
+                        
+        
+            
+                        <div class="d-flex  flex-row  mb-1">
+                            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                              <div class="d-flex flex-column">
+                                <div class="d-flex flex-row ">
+                                <img src="https://media.sketchfab.com/avatars/e774711c6a8a485d9cbd75f64d49f977/8acef796e21c448ebabc470b1d250ba6.png" class="image"/>
+                                          <div class="d-flex flex-column">
+                                            <div class="d-flex flex-row" style="text-align: left;">  
+                                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                            Renafox
+                                        </p>
+                                        <button class="btn btn-primary btnelement">
+                                            ENTERPRISE
+                                        </button>
+                                        </div>
+                                        <p style="font-size: 12px;padding-left: 10px;">
+                                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                        </p>
+                                    </div>
+                                   
+                                    </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <img src="https://media.sketchfab.com/models/544aa41de67b48cf89f8fcc2bb06e8f4/thumbnails/7c955920d3fa42ccaa76043faa63a4a0/200x200.jpeg" class="page" style="width:229px;height:128px;"/>
+                                        <img src="https://media.sketchfab.com/models/916b51c7e5644eb2a6c9b3797ebb08cf/thumbnails/2000abffeb8c4a269f5bee4db411cd21/2514c4345c6044c5a2096705109f7e5b.jpeg"class="page" style="width:229px;height:128px;"/>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                        3,456,287
+                                    </span>
+                                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                        FOLLOWERS
+                                    </p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                            75
+                                        </span>
+                                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                            MODELS
+                                        </p>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                            FOLLOW
+                                        </button>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="d-flex  flex-row  mb-1">
+                                    <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                                      <div class="d-flex flex-column">
+                                        <div class="d-flex flex-row ">
+                                        <img src="https://media.sketchfab.com/avatars/e38a99a73e2f49b4ad21a22de3567bb3/b8e563a24d024a6bba3591f7c43f1caf.jpeg" class="image"/>
+                                                  <div class="d-flex flex-column">
+                                                    <div class="d-flex flex-row" style="text-align: left;">  
+                                                <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                                    tzeshi
+                                                </p>
+                                                <button class="btn btn-primary btnelement">
+                                                    ENTERPRISE
+                                                </button>
+                                                </div>
+                                                <p style="font-size: 12px;padding-left: 10px;">
+                                                    3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                                </p>
+                                            </div>
+                                           
+                                            </div>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <img src="https://media.sketchfab.com/models/145a513ac6154e36b6ba336eadfc3e00/thumbnails/50df3b26263f45c5a2d22bc6ab66f450/db0c7133ea7149148e27a9b6ccc1ce43.jpeg" class="page" style="width:229px;height:128px;" />
+                                                <img src="https://media.sketchfab.com/models/24033742597441eda804fad16d2c7255/thumbnails/5fea10599e7b460ba865e9e077228c52/cb596dab0a894e67ba51c5c9fd729ccb.jpeg"class="page" style="width:229px;height:128px;"/>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <div class="d-flex flex-column">
+                                            <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                                3,456,287
+                                            </span>
+                                            <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                                FOLLOWERS
+                                            </p>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                                    75
+                                                </span>
+                                                <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                                    MODELS
+                                                </p>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                                <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                                    FOLLOW
+                                                </button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                
+                     
+                        
+                
+         </div>
+         </div>
+         </div>
+         <div class="d-flex  flex-row  mb-1">
+            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row ">
+                <img src="https://media.sketchfab.com/avatars/4164867c9072449caa0304484c023ce7/e52314940b814e78b7ff9c8f1bbd070e.jpeg" class="image"/>
+                          <div class="d-flex flex-column">
+                            <div class="d-flex flex-row" style="text-align: left;">  
+                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                            emiliestabell
+                        </p>
+                        <button class="btn btn-primary btnelement">
+                            ENTERPRISE
+                        </button>
+                        </div>
+                        <p style="font-size: 12px;padding-left: 10px;">
+                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                        </p>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://media.sketchfab.com/models/aad4c32e997f4efc9571294c7e1d0c8c/thumbnails/d32c05c4d3584daea1a19a72fd279cbc/663ad455ac3f4ef6a9090397b578f6c4.jpeg" class="page"/>
+                        <img src="https://media.sketchfab.com/models/ddeaf1d238d742a0b116fac11e957648/thumbnails/5c71273466644f3b986103f40ae2a8d4/4c32d7e8e71245a0859313048627bbd6.jpeg"class="page"/>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column">
+                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                        3,456,287
+                    </span>
+                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                        FOLLOWERS
+                    </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                            75
+                        </span>
+                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                            MODELS
+                        </p>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                            FOLLOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="d-flex  flex-row  mb-1">
+                    <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row ">
+                        <img src="https://media.sketchfab.com/avatars/8842a4b48da94a819e5bf00294e8be0c/51879011c8dc408cbe2064431527889f.jpeg" class="image"/>
+                                  <div class="d-flex flex-column">
+                                    <div class="d-flex flex-row" style="text-align: left;">  
+                                <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                    Virtualstudio
+                                </p>
+                                <button class="btn btn-primary btnelement">
+                                    ENTERPRISE
+                                </button>
+                                </div>
+                                <p style="font-size: 12px;padding-left: 10px;">
+                                    3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                </p>
+                            </div>
+                           
+                            </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="https://media.sketchfab.com/models/49138c28de334c84955719ffcb4e7aab/thumbnails/75128d37972248998836ee86fed8715d/35dfc207706842b386de78c5e7ecce8d.jpeg" class="page"/>
+                                <img src="https://media.sketchfab.com/models/36e9d3598c554bb69f3d9cd00e161818/thumbnails/acb8f87cbbd84f6d86e566862858f83e/b73853bcd24e461cb3b8b94238710e1e.jpeg"class="page"/>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="d-flex flex-column">
+                            <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                3,456,287
+                            </span>
+                            <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                FOLLOWERS
+                            </p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                    75
+                                </span>
+                                <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                    MODELS
+                                </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                    FOLLOW
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                        
+        
+            
+                        <div class="d-flex  flex-row  mb-1">
+                            <div class="containerElement shadow d-inline d-sm-5 d-md-3">
+                              <div class="d-flex flex-column">
+                                <div class="d-flex flex-row ">
+                                <img src="https://media.sketchfab.com/avatars/8ad056a99af146b0bfcc40d4556cb530/736f5e7744ef4eed9d68b51c23de14ed.jpeg" class="image"/>
+                                          <div class="d-flex flex-column">
+                                            <div class="d-flex flex-row" style="text-align: left;">  
+                                        <p style="font-size:20px;padding-left:15px;padding-right:15px;margin-top: 10px;">
+                                            CurlsCurly
+                                        </p>
+                                        <button class="btn btn-primary btnelement">
+                                            ENTERPRISE
+                                        </button>
+                                        </div>
+                                        <p style="font-size: 12px;padding-left: 10px;">
+                                            3D-COAT -3D RECONSTRUCTION-3DS MAX
+                                        </p>
+                                    </div>
+                                   
+                                    </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <img src="https://media.sketchfab.com/models/9541fbde36444073b571473d635a6cee/thumbnails/acff4057c2e94bca8b3dcc920b6a9a3a/256x144.jpeg" class="page"/>
+                                        <img src="https://media.sketchfab.com/models/58a09609fe754517b3504cae305b9183/thumbnails/2e2f3f71adcd4343ab599de8747e1721/256x144.jpeg"class="page"/>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                    <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                        3,456,287
+                                    </span>
+                                    <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                        FOLLOWERS
+                                    </p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span style="color:skyblue;padding:10px;font-size: 22px;">
+                                            75
+                                        </span>
+                                        <p style="padding-left: 10px;color: grey;font-weight: bold;">
+                                            MODELS
+                                        </p>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-end" style="margin-left:145px;margin-top: 25px;">                  
+                                        <button class="btn btn-info" style="height:40px;width:95px;font-weight: bold; ">
+                                            FOLLOW
+                                        </button>
+                                    </div>
+                                </div>
+                                </div>
+                     
+                        
+                
+         </div>
+         </div>
+         </div>
+
+
+        </div>
+        
+    </body>
+</html>
